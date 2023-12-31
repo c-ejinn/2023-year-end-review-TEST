@@ -2394,7 +2394,7 @@ body.is-touch .main {
 /* jan */
 
 #jan {
-	background: url("images/new/1jan/2023-01-15.png"), url("../../images/new/1jan/2023-01-15.png");
+	background: url("images/new/1jan/intro.png"), url("../../images/new/1jan/2023-01-15.png");
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, center center;
