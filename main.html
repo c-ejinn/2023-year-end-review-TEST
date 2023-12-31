@@ -17,16 +17,19 @@
 </head>
 
 <body class="is-preload">
+    <audio id="music" src="assets/The Nautilus Knoweth.mp3" loop="loop"></audio>
 
     <!-- Header -->
-    <!-- <header id="header">
+    <header id="header">
         <h1>2023 End Roll</h1>
         <nav>
-			<ul>
-				<li><a href="#intro">test2</a></li>
-			</ul>
-		</nav>
-    </header> -->
+            <ul>
+                <li>
+                    <button class="music" id="musicButton"> Music Pause</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
     <!-- jan -->
     <section id="jan" name="jan" class="main style1 left dark fullscreen">
@@ -258,13 +261,13 @@
     </section>
 
     <!-- Work -->
-    <section id="end" class="main style3 primary">
+    <section id="end" class="main style3 primary fullscreen">
         <div class="content">
             <header>
-                <h2>My Work</h2>
-                <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-                    Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis
-                    arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.</p>
+                <h2>Thank you for an awesome year :3</h2>
+                <p>Hopefully I'll finish this before you fall asleep... but yeah. Best wishes for the year to come,
+                    in-game, and in real life.</p>
+                <p> - Cor'ra Ejinn, 2023</p>
             </header>
         </div>
     </section>
@@ -290,6 +293,21 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
 
+    <script>
+        document.getElementById("music").volume = 0.1;
+        setTimeout(function () { document.getElementById("music").play(); }, 1000)
+
+        document.getElementById("musicButton").addEventListener("click", function () {
+            var audio = document.getElementById("music");
+            if (audio.paused) {
+                document.getElementById("musicButton").innerText = "Music Pause";
+                audio.play();
+            } else {
+                document.getElementById("musicButton").innerText = "Music Play";
+                audio.pause();
+            }
+        })
+    </script>
 </body>
 
 </html>
