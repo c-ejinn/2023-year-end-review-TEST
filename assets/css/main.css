@@ -114,6 +114,10 @@ body {
 	line-height: 1;
 }
 
+/* html {
+	scroll-behavior: smooth;
+} */
+
 ol,
 ul {
 	list-style: none;
@@ -758,7 +762,8 @@ table {
 }
 
 .box.style2 {
-	padding: 3.5em 2.5em 3.5em 2.5em;
+	/* padding: 3.5em 2.5em 3.5em 2.5em; */
+	padding: 2em;
 }
 
 .left .box {
@@ -2394,7 +2399,49 @@ body.is-touch .main {
 /* jan */
 
 #jan {
-	background: url("images/new/1jan/intro.png"), url("../../images/new/1jan/2023-01-15.png");
+	background: url("images/new/1jan/2023-01-15-2.png"), url("../../images/new/1jan/2023-01-15-2.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+#jan-1 {
+	background: url("images/new/1jan/2023-01-15.png"), url("../../images/new/1jan/2023-01-15.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+#jan-2 {
+	background: url("images/new/1jan/2023-01-15-3.png"), url("../../images/new/1jan/2023-01-15-3.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+#jan-3 {
+	background: url("images/new/1jan/2023-01-14.png"), url("../../images/new/1jan/2023-01-14.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+#jan-4 {
+	background: url("images/new/1jan/2023-01-21.png"), url("../../images/new/1jan/2023-01-21.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+#jan-5 {
+	background: url("images/new/1jan2023-01-21-2.png"), url("../../images/new/1jan/2023-01-21-2.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+#jan-6 {
+	background: url("images/new/1jan2023-01-21-3.png"), url("../../images/new/1jan/2023-01-21-3.png");
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, center center;
