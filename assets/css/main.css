@@ -747,8 +747,9 @@ table {
 /* Box */
 
 .box {
-	background: #ffffff38;
+	background: #ffffff7b;
 	color: #39454b;
+	box-shadow: 0px 0px 40px 20px #ffffff7b;
 	padding: 2em;
 }
 
@@ -758,6 +759,14 @@ table {
 
 .box.style2 {
 	padding: 3.5em 2.5em 3.5em 2.5em;
+}
+
+.left .box {
+	border-radius: 0 12px 12px 0;
+}
+
+.right .box {
+	border-radius: 12px 0 0 12px;
 }
 
 @media screen and (max-width: 736px) {
