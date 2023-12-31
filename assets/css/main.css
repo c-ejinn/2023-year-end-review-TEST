@@ -2447,10 +2447,159 @@ body.is-touch .main {
 	background-position: top left, center center;
 }
 
-/* Two */
+/* feb */
 
 #feb {
 	background: url("images/new/2feb/2023-02-18.png"), url("../../images/new/2feb/2023-02-18.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+/* march */
+
+#mar {
+	background: url("images/new/3mar/2023-03-14.png"), url("../../images/new/3mar/2023-03-14.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+#mar-1 {
+	background: url("images/new/3mar/2023-03-26.png"), url("../../images/new/3mar/2023-03-26.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+/* april */
+
+#apr {
+	background: url("images/new/3mar/2023-04-07.png"), url("../../images/new/4apr/2023-04-07.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+/* may */
+
+#may {
+	background: url("images/new/5may/2023-05-05.png"), url("../../images/new/5may/2023-05-05.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+#may-1 {
+	background: url("images/new/5may/2023-05-05-2.png"), url("../../images/new/5may/2023-05-05-2.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+#may-2 {
+	background: url("images/new/5may/2023-05-19.png"), url("../../images/new/5may/2023-05-19.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+#may-3 {
+	background: url("images/new/5may/2023-05-19-2.png"), url("../../images/new/5may/2023-05-19-2.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+/* june */
+
+#june {
+	background: url("images/new/6jun/2023-06-06.png"), url("../../images/new/6jun/2023-06-06.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+/* aug */
+
+#aug {
+	background: url("images/new/8aug/2023-08-05.png"), url("../../images/new/8aug/2023-08-05.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+#aug-1 {
+	background: url("images/new/8aug/2023-08-05-2.png"), url("../../images/new/8aug/2023-08-05-2.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+#aug-2 {
+	background: url("images/new/8aug/2023-08-20.png"), url("../../images/new/8aug/2023-08-20.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+#aug-3 {
+	background: url("images/new/8aug/2023-08-27.png"), url("../../images/new/8aug/2023-08-27.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+#aug-4 {
+	background: url("images/new/8aug/2023-08-27-2.png"), url("../../images/new/8aug/2023-08-27-2.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+/* sep */
+
+#sep {
+	background: url("images/new/9sep/2023-09-13.png"), url("../../images/new/9sep/2023-09-13.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+/* oct */
+
+#oct {
+	background: url("images/new/10oct/ffxiv_10042023_230215_748.png"), url("../../images/new/10oct/ffxiv_10042023_230215_748.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+/* dec */
+
+#dec {
+	background: url("images/new/12dec/2023-12-18-1.png"), url("../../images/new/12dec/2023-12-18-1.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+#dec-1 {
+	background: url("images/new/12dec/2023-12-18-2.png"), url("../../images/new/12dec/2023-12-18-2.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+#dec-2 {
+	background: url("images/new/12dec/2023-12-19-3.png"), url("../../images/new/12dec/2023-12-19-3.png");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+#dec-3 {
+	background: url("images/new/12dec/2023-12-19-4.png"), url("../../images/new/12dec/2023-12-19-4.png");
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, center center;
@@ -2496,4 +2645,23 @@ body.is-touch .main {
 		padding: 1em 1em 2em 1em;
 	}
 
+}
+
+/* glow */
+.glow {
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	-moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+	from {
+		text-shadow:
+			0 0 10px #ffffffa2
+	}
+
+	to {
+		text-shadow:
+			0 0 10px #ffffffa2
+	}
 }
